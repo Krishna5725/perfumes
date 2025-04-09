@@ -1,0 +1,174 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cc6600;
+  padding: 1rem 2rem;
+}
+#heading{
+  color:burlywood ;
+}
+
+nav .logo h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+nav .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+nav .nav-links li {
+  margin: 0 1rem;
+}
+
+nav .nav-links li a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+nav .cart a {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.banner {
+  background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+  color:whitesmoke;
+  background-image: url(orientalbg.webp);
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.banner-text h2 {
+  font-size: 3rem;
+}
+
+.banner-text p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 12rem;
+  padding: 10rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #cc6600; 
+  margin-bottom: 2rem;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.product-card h3 {
+  font-size: 1.8rem;
+  color: #cc6600;
+  margin-top: 1rem;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+
+
+.product-card .add-to-cart {
+  background-color: #cc6600;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.product-card .add-to-cart:hover {
+  background-color: #b25900; 
+}
+
+.Amber {
+  border-style:solid;
+ border-radius:10px;
+ width:350px;
+ height:350px;
+ background-image:url(Amber.jpg);
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+.Oud {
+  border-style:solid;
+ border-radius:10px;
+ width:350px;
+ height:350px;
+ background-image:url(oudperfume.webp);
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+.Musk {
+  border-style:solid;
+ border-radius:10px;
+ width:350px;
+ height:350px;
+ background-image:url(musk.webp);
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+.Spice {
+  border-style:solid;
+ border-radius:10px;
+ width:350px;
+ height:350px;
+ background-image:url(spice.webp);
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
